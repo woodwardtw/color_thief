@@ -1,15 +1,15 @@
 <?php
 /**
  * Plugin Name: Color Thievery
- * Plugin URI: https://github.com/woodwardtw/gfolder_embed
- * Description: If you tie the color thief js library to a page you can use it w shortcodes.
- * Version: .5
+ * Plugin URI: https://github.com/woodwardtw/color_thief
+ * Description: Lets you pull the 4 dominant colors from images using the [colorthief url="http://yoursite.com/theimg.jpg"] shortcode. Defaults to 100% and 20px height but you can override in the shortcode. 
+ * Version: .7
  * Author: Tom Woodward
  * Author URI: http://bionicteaching.com
  * License: GPL2
  */
  
- /*   2014  PLUGIN_AUTHOR_NAME  (email : bionicteaching@gmail.com)
+ /*   2015 Tom Woodward   (email : bionicteaching@gmail.com)
  
  	This program is free software; you can redistribute it and/or modify
  	it under the terms of the GNU General Public License, version 2, as 
