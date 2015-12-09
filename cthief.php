@@ -38,10 +38,10 @@ function colorthief_shortcode($atts, $content=null) {
 	return '
     <img class="cthief" id="theimage'.$unique.'" src="'. $a['url'] .'" />
 <div class="stolencolors">
-      <div id="mydiv_' . $unique . '_a" style="width:'. $a['width'] . ';height:' . $a['height'] . ';"></div>
-      <div id="mydiv_' . $unique . '_b" style="width:'. $a['width'] . ';height:' . $a['height'] . ';"></div>
-      <div id="mydiv_' . $unique . '_c" style="width:'. $a['width'] . ';height:' . $a['height'] . ';"></div>
-      <div id="mydiv_' . $unique . '_d" style="width:'. $a['width'] . ';height:' . $a['height'] . ';"></div>
+      <div class="ct_color" id="mydiv_' . $unique . '_a" style="width:'. $a['width'] . ';height:' . $a['height'] . ';"></div>
+      <div class="ct_color" id="mydiv_' . $unique . '_b" style="width:'. $a['width'] . ';height:' . $a['height'] . ';"></div>
+      <div class="ct_color" id="mydiv_' . $unique . '_c" style="width:'. $a['width'] . ';height:' . $a['height'] . ';"></div>
+      <div class="ct_color" id="mydiv_' . $unique . '_d" style="width:'. $a['width'] . ';height:' . $a['height'] . ';"></div>
 </div>
   <script type="text/javascript">
 
